@@ -1,0 +1,53 @@
+h1 {
+  text-align: center;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+* {
+  font-family: Arial;
+}
+
+.box {
+  width: 1000px;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 25px auto;
+}
+
+/* Used from https://www.w3schools.com/css/css_navbar.asp*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+/* Used from https://www.w3schools.com/css/css_navbar.asp*/
+li {
+  float: left;
+}
+
+/* Used from https://www.w3schools.com/css/css_navbar.asp*/
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Used from https://www.w3schools.com/css/css_navbar.asp*/
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+/* Used from https://www.w3schools.com/css/css_navbar.asp*/
+.active {
+  background-color: #4CAF50;
+}
+

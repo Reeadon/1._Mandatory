@@ -1,0 +1,15 @@
+{
+    "scripts": {
+        "start": "node app.js set PORT=80",
+        "start-dev": "nodemon app.js set PORT=3000"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^2.0.2"
+    },
+
+    "car": {
+        "brand": "volvo",
+        "fueltype": "electric"
+    }
+}

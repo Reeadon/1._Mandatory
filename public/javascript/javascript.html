@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../CSS/MyCSS.css">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>JavaScript with jQuery</h1>
+    <ul>
+        <li><a href="../">Home</a></li>
+        <li><a href="theory">Theory</a></li>
+        <li><a href="commands">NPM and Commands</a></li>
+        <li><a class="active" href="javascript">JavaScript with jQuery</a></li>
+        <li><a href="restapi">REST API</a></li>
+    </ul>
+    <div class="box">
+        <div id="box-type-coercion">
+            <b>Type coercion</b><br>
+            <button id="box-type-coercion-before">Complete text before paragraph</button>
+            <p>Type coercion is the process of converting a certain value to another, for instance a Number to String. It can also lead to great frustration when JavaScript implicitly handles something in a way that was not meant to be.</p>
+            <button id="box-type-coercion-after">Complete text after paragraph</button>
+        </div>
+    
+        <div id="box-asi">
+            <h3 style="font-size: 0.7em;">This text should be about ASI, but it's really small!<br>Try to click this header to change the text size.</h3>
+            <p style="font-size: 0.2em;">As we know from Java, using semicolon is a necessity when trying to run code.
+                Your code simply won't compile when missing a semicolon. JavaScript has a fix for this and that is Automatic Semicolon Insertion. 
+                It automatically inserts semicolon when particular statements should be terminated by a semicolon
+                and it means that when typing JS code, semicolons are optional right?
+                Wrong. There are examples of where ASI tries to correct your code by inserting a semicolon, when you should've just had a syntax error.
+                When I'm writing JS, I will consequently use semicolon everywhere it's appropriate.
+            </p>
+        </div>
+
+        <div id="box-arrow-functions">
+            <b>Arrow functions</b><br>
+            <button>Hover over this button to read about arrow functions.</button>
+            <p style="display: none;">In the beginning of our NodeJS course, we used regular functions to execute some particular code but we quickly changed to use arrow functions instead.
+                There's a specific reason as to why we made the change, but I quite like the look of a arrow function and I think it provides some readibility.
+                There are also some negatives to arrow functions in that it is syntactically anonymous, meaning that arrow functions are not named and that can make it harder to debug to some degree. There's no self referencing either.
+                The main upside and the reason why our course made the switch is because there is no binding of 'this'. In classic functions, 'this' is contextually bound while in arrow functions 'this' is bound to the code that contains the arrow function.
+            </p>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/public/javascript/javascript.js"></script>
+</body>
+</html>
